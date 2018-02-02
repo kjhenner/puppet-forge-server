@@ -48,6 +48,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'lrucache', '~> 0.1.4'
   spec.add_dependency 'iconv', '~> 1.0.4'
   spec.add_dependency 'logger-colors', '~> 1.0'
+  spec.add_dependency 'rack-test', '0.6.3' if RUBY_VERSION < '2.2.2'
 
   spec.add_development_dependency 'rake', '~> 10.3'
   spec.add_development_dependency 'rspec', '~> 3.1'
